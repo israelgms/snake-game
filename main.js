@@ -10,13 +10,13 @@ cobrinha[0] = {
 let direcao = "right";
 
 function criarBG() {
-    context.fillStyle = "yellow"; //fill Style = Estilo do canvas.
+    context.fillStyle = "white"; //fill Style = Estilo do canvas.
     context.fillRect(0, 0, 16 * box, 16 * box); //fillRect = Onde acontecerá o jogo 4 parametros ( X e Y, Altura e Largura)
 }
 
 var criarCobrinha = () => {
     for (i = 0; i < cobrinha.length; i++) {
-        context.fillStyle = "black";
+        context.fillStyle = "green";
         context.fillRect(cobrinha[i].x, cobrinha[i].y, box, box);
     }
 }
@@ -42,7 +42,7 @@ let comida = {
     y: Math.floor(Math.random() * 15 + 1) * box
 }
 var alimentar = () => {
-    context.fillStyle = "blue"
+    context.fillStyle = "red"
     context.fillRect(comida.x, comida.y, box, box);
 }
 
@@ -94,4 +94,5 @@ const start = () => {
     }
 }
 
-let jogo = setInterval(start, 100);
+// let jogo = setInterval(start, 100);
+

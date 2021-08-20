@@ -1,8 +1,45 @@
- #snake{
-    width: 512px;
-    height: 512px;
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(fundo.jpg);
+    /* https://br.freepik.com/vetores/fundo Fundo vetor criado por freepik - br.freepik.com */
+    background-size: cover;
+    padding: 0px;
+    margin: 0px;
 }
 
-.container{
+#snake{
+    width: 512px;
+    height: 512px;
+    border: 10px solid rgba(10, 87, 20, 0.678);
+}
+
+.principal{
     text-align: center;
 }
+
+.principal h1{
+    background-color: rgba(10, 87, 20, 0.479);
+    color: white;
+    font-size: 70px;
+
+}
+
+.principal .gameMenu {
+    margin: 50px;
+}
+
+.principal .gameMenu button{
+    border: none;
+    font-size: 40px;
+    border-radius: 15px;
+    width: 220px;
+    color: white;
+    background-color: rgb(10, 87, 20);
+    cursor: pointer; 
+    margin-left: 30px;   
+}
+
+.principal .gameMenu button:hover{
+    background-color: rgba(10, 87, 20, 0.479);
+}
+
