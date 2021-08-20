@@ -61,6 +61,7 @@ const start = () => {
         if(cobrinha[0].x == cobrinha[1].x && cobrinha[0].y == cobrinha[i].y){
             clearInterval(jogo);
             alert('Fim de jogo')
+            location.reload()
         }
     }
 
@@ -94,5 +95,5 @@ const start = () => {
     }
 }
 
-// let jogo = setInterval(start, 100);
+var jogo; 
 
