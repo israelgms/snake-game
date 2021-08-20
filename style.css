@@ -1,0 +1,8 @@
+ #snake{
+    width: 512px;
+    height: 512px;
+}
+
+.container{
+    text-align: center;
+}
