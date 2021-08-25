@@ -21,11 +21,11 @@ body{
     background-color: rgba(10, 87, 20, 0.479);
     color: white;
     font-size: 70px;
-
+    margin: 0px
 }
 
 .principal .gameMenu {
-    margin: 50px;
+    margin: 20px;
 }
 
 .principal .gameMenu button{
